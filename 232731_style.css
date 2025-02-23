@@ -97,6 +97,8 @@ section {
 }
 
 span {
+  font-family: "Funnel Display", serif;
+  font-optical-sizing: auto;
   color: var(--main-color);
 }
 
