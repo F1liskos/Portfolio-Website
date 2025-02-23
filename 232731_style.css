@@ -237,7 +237,7 @@ span {
   }
   21%,
   40% {
-    content: "Cybersecurity Analyst";
+    content: "Cybersecurity Enthusiast";
   }
   41%,
   60% {
@@ -245,11 +245,11 @@ span {
   }
   61%,
   80% {
-    content: "Malware Researcher";
+    content: "Hack The Box Player";
   }
   81%,
   100% {
-    content: "Penetration Tester";
+    content: "Malware Researcher";
   }
 }
 @keyframes typing {
