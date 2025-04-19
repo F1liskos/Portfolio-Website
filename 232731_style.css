@@ -239,11 +239,11 @@ span {
   }
   21%,
   40% {
-    content: "Cybersecurity Enthusiast";
+    content: "Github Campus Expert";
   }
   41%,
   60% {
-    content: "Soon to be CompTIA Sec+";
+    content: "IEEE Member";
   }
   61%,
   80% {
@@ -251,7 +251,7 @@ span {
   }
   81%,
   100% {
-    content: "Malware Researcher";
+    content: "Cyber Security Enthusiast";
   }
 }
 @keyframes typing {
@@ -606,6 +606,7 @@ span {
   color: #fcb7a8;
 }
 
+/* Optimized Media Queries */
 @media (max-width: 1285px) {
   html {
     font-size: 55%;
@@ -616,6 +617,7 @@ span {
     margin: 0 5rem;
   }
 }
+
 @media (max-width: 991px) {
   header {
     padding: 2rem 3%;
@@ -650,6 +652,7 @@ span {
     padding: 2rem 3%;
   }
 }
+
 @media (max-width: 895px) {
   #menu-icon {
     display: block;
@@ -701,92 +704,73 @@ span {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
 @media (max-width: 960px) {
   .home {
     flex-direction: column;
     padding: 6rem 2rem 2rem;
     gap: 5rem;
   }
-
   .home-content {
     align-items: center;
     text-align: center;
     margin-top: 0;
   }
-
   .home-content h1 {
     font-size: 5rem;
   }
-
   .home-content h3 {
     font-size: 2.5rem;
   }
-
   .home-content p {
     font-size: 1.5rem;
     max-width: 100%;
   }
-
   .home-img img {
-    width: 80%;
+    width: 70%;
     height: auto;
+    margin: 0 auto;
+    display: block;
   }
-
   .social-icons {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
   }
-
   .btn-group {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
   }
 }
+
 @media (max-width: 480px) {
   .home {
     flex-direction: column;
     padding: 6rem 1rem 1rem;
     gap: 3rem;
   }
-
   .home-content {
     align-items: center;
     text-align: center;
     margin-top: 0;
   }
-
   .home-content h1 {
     font-size: 3rem;
   }
-
   .home-content h3 {
     font-size: 2rem;
   }
-
   .home-content p {
     font-size: 1rem;
     max-width: 100%;
   }
-
   .home-img img {
-    width: 100%;
+    width: 90%;
     height: auto;
+    margin: 0 auto;
+    display: block;
   }
-
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-  }
-
-  .btn-group {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-  }
-
   .btn-group .btn {
     padding: 0.5rem 1rem;
     font-size: 1rem;
