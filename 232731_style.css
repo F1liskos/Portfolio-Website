@@ -546,6 +546,19 @@ span {
 .contact form .btn {
   margin-top: 2rem;
 }
+
+.contact form .input-box input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.contact form .input-box input[type="number"]::-webkit-inner-spin-button,
+.contact form .input-box input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .footer {
   position: relative;
   bottom: 0;
