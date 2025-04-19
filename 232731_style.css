@@ -619,7 +619,6 @@ span {
   color: #fcb7a8;
 }
 
-/* Optimized Media Queries */
 @media (max-width: 1285px) {
   html {
     font-size: 55%;
