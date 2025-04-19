@@ -715,6 +715,10 @@ span {
   .services-container {
     grid-template-columns: repeat(1, 1fr);
   }
+  .navbar {
+    padding: 0.5rem 3%; /* Reduce padding */
+    height: 50px; /* Set a fixed shorter height */
+  }
 }
 
 @media (max-width: 960px) {
@@ -800,5 +804,9 @@ span {
   .navbar a {
     font-size: 1.2rem;
     margin-left: 1rem;
+  }
+  .navbar {
+    padding: 0.3rem 1%;
+    height: 40px;
   }
 }
