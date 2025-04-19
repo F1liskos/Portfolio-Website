@@ -130,7 +130,7 @@ span {
 .home-img img {
   position: relative;
   top: 3rem;
-  width: 32vw;
+  width: 26vw;
   border-radius: 50%;
   box-shadow: 0 0 25px var(--main-color);
   cursor: default;
@@ -755,6 +755,12 @@ span {
     justify-content: center;
     margin-top: 1rem;
   }
+  .navbar {
+    padding: 0.5rem 2%; 
+  .navbar a {
+    font-size: 1.5rem; 
+    margin-left: 2rem; 
+  }
 }
 
 @media (max-width: 480px) {
@@ -787,5 +793,12 @@ span {
   .btn-group .btn {
     padding: 0.5rem 1rem;
     font-size: 1rem;
+  }
+  .navbar {
+    padding: 0.5rem 1%; /* Further reduce padding for very small screens */
+  }
+  .navbar a {
+    font-size: 1.2rem; /* Make font size smaller */
+    margin-left: 1rem; /* Reduce spacing further */
   }
 }
