@@ -10,8 +10,8 @@
 }
 
 :root {
-  --bg-color: #080808;
-  --second-bg-color: #131313;
+  --bg-color: #0e111b;
+  --second-bg-color: #0e111b;
   --text-color: #fcb7a8;
   --main-color: #ed6a40;
 }
@@ -151,7 +151,7 @@ span {
   box-shadow: 0 0 25px var(--main-color);
   border-radius: 4rem;
   font-size: 1.6rem;
-  color: black;
+  color: var(--bg-color);
   font-weight: 600;
   transition: 0.3s ease-in-out;
   cursor: pointer;
@@ -160,6 +160,7 @@ span {
 .btn:hover {
   transform: scale(1.05);
   box-shadow: 0 0 50px var(--main-color);
+  color: var(--text-color);
 }
 
 .btn-group {
@@ -392,7 +393,7 @@ span {
 }
 
 .service-box {
-  background-color: #080808;
+  background-color: var(--bg-color);
   height: 300px;
   border-radius: 3rem;
   border: 5px solid transparent;
@@ -402,10 +403,11 @@ span {
 }
 
 .service-box:hover {
-  background: #080808;
-  color: #ed6a40;
+  background: var(--bg-color);
+  color: var(--text-color);
   border: 5px solid var(--main-color);
   transform: scale(1.03);
+  box-shadow: 0 0 25px var(--main-color);
 }
 
 .service-box .service-info {
@@ -475,7 +477,7 @@ span {
 .testimonial-item {
   min-height: 550px;
   max-width: 450px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(14, 17, 27, 0.7);
   border: 3px solid rgba(238, 238, 238, 0.2);
   border-radius: 2rem;
   margin: 0 2rem;
@@ -487,7 +489,7 @@ span {
   justify-content: center;
   text-align: center;
   gap: 1.5rem;
-  color: white;
+  color: var(--text-color);
   transition: 0.4s ease-in-out;
 }
 
@@ -506,7 +508,7 @@ span {
 }
 
 #star {
-  color: gold;
+  color: var(--main-color);
   font-size: 2rem;
 }
 
@@ -594,7 +596,7 @@ span {
 .footer .social a:hover {
   transform: scale(1.2) translateY(-10px);
   background-color: var(--main-color);
-  color: black;
+  color: var(--text-color);
   box-shadow: 0 0 25px var(--main-color);
 }
 
@@ -722,7 +724,7 @@ span {
     font-size: 2.5rem;
   }
   .home-content p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     max-width: 100%;
   }
   .home-img img {
@@ -740,6 +742,7 @@ span {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
+    size: 2rem;
   }
 }
 
