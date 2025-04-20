@@ -1,14 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Menu toggle functionality
-  let menuIcon = document.querySelector("#menu-icon");
-  let navbar = document.querySelector(".navbar");
-
-  menuIcon.onclick = () => {
-    menuIcon.classList.toggle("bx-x");
-    navbar.classList.toggle("active");
-  };
-
-  // Active link highlighting on scroll
   let sections = document.querySelectorAll("section");
   let navLinks = document.querySelectorAll("header nav a");
 
@@ -30,7 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   };
 
-  // Form submission handling
   const form = document.querySelector("form");
   const formMessage = document.getElementById("form-message");
 
@@ -49,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
           if (data.success) {
             formMessage.textContent = "Message sent successfully!";
             formMessage.style.color = "green";
-            form.reset(); // Clear the form
+            form.reset();
           } else {
             formMessage.textContent =
               "Error sending message. Please try again.";
