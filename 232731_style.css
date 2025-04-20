@@ -8,21 +8,7 @@
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
 }
-.navbar a {
-  font-family: "Funnel Display", serif;
-  font-optical-sizing: auto;
-  font-size: 1.8rem;
-  color: var(--text-color);
-  margin-left: 4rem;
-  font-weight: 500;
-  transition: 0.3s ease;
-  border-bottom: 3px solid transparent;
-}
-.navbar a:hover,
-.navbar a.active {
-  color: var(--main-color);
-  border-bottom: 3px solid var(--main-color);
-}
+
 :root {
   --bg-color: #080808;
   --second-bg-color: #131313;
@@ -45,7 +31,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 4rem 12% 4rem;
+  padding: 4rem 12%;
   background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
   display: flex;
@@ -56,7 +42,6 @@ body {
 
 .logo {
   font-family: "Funnel Display", serif;
-  font-optical-sizing: auto;
   font-size: 3rem;
   color: var(--text-color);
   font-weight: 800;
@@ -68,16 +53,9 @@ body {
   color: var(--main-color);
 }
 
-#menu-icon {
-  cursor: pointer;
-  font-size: 3.6rem;
-  color: var(--main-color);
-  display: none;
-}
-
 section {
   min-height: 100vh;
-  padding: 10rem 12% 10rem;
+  padding: 10rem 12%;
 }
 
 .home {
@@ -98,7 +76,6 @@ section {
 
 span {
   font-family: "Funnel Display", serif;
-  font-optical-sizing: auto;
   color: var(--main-color);
 }
 
@@ -108,7 +85,6 @@ span {
 
 .home-content h3 {
   font-family: "Funnel Display", serif;
-  font-optical-sizing: auto;
   margin-bottom: 2rem;
   margin-top: 1rem;
   font-size: 3.5rem;
@@ -116,17 +92,12 @@ span {
 
 .home-content h1 {
   font-family: "Funnel Display", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
   font-size: 7rem;
   font-weight: 700;
   margin-top: 1.5rem;
   line-height: 1;
 }
 
-.home-img {
-  border-radius: 50%;
-}
 .home-img img {
   position: relative;
   top: 3rem;
@@ -136,18 +107,20 @@ span {
   cursor: default;
   transition: 0.4s ease-in-out;
 }
+
 .home-img img:hover {
   box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color),
     0 0 100px var(--main-color);
 }
+
 .home-content p {
   font-family: "Funnel Display", serif;
-  font-optical-sizing: auto;
   font-size: 1.7rem;
   font-weight: 500;
   line-height: 1.8;
   max-width: 1000px;
 }
+
 .social-icons a {
   display: inline-flex;
   justify-content: center;
@@ -162,15 +135,16 @@ span {
   margin: 3rem 1.5rem 3rem 0;
   transition: 0.3s ease-in-out;
 }
+
 .social-icons a:hover {
   color: var(--text-color);
   transform: scale(1.3) translateY(-5px);
   box-shadow: 0 0 25px var(--main-color);
   background-color: var(--main-color);
 }
+
 .btn {
   font-family: "Funnel Display", serif;
-  font-optical-sizing: auto;
   display: inline-block;
   padding: 1rem 2.8rem;
   background: var(--main-color);
@@ -178,45 +152,38 @@ span {
   border-radius: 4rem;
   font-size: 1.6rem;
   color: black;
-  border: 2px solid transparent;
-  letter-spacing: 0.1rem;
   font-weight: 600;
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
+
 .btn:hover {
   transform: scale(1.05);
   box-shadow: 0 0 50px var(--main-color);
 }
+
 .btn-group {
   display: flex;
   align-items: center;
   gap: 1.5rem;
 }
-.btn-group a:nth-of-type(2) {
-  background-color: black;
-  color: var(--main-color);
-  border: 2px solid var(--main-color);
-  box-shadow: 0 0 25px transparent;
-}
-.btn-group a:nth-of-type(2):hover {
-  box-shadow: 0 0 25px var(--main-color);
-  background-color: var(--main-color);
-  color: black;
-}
+
 .text-animation {
   font-size: 34px;
   font-weight: 600;
   min-width: 280px;
 }
+
 .text-animation span {
   position: relative;
 }
+
 .text-animation span::before {
   content: "Cyber Security Enthusiast";
   color: var(--main-color);
   animation: words 20s infinite;
 }
+
 .text-animation span::after {
   content: "";
   background-color: var(--bg-color);
@@ -227,11 +194,13 @@ span {
   right: -8px;
   animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
 }
+
 @keyframes cursor {
   to {
     border-left: 2px solid var(--main-color);
   }
 }
+
 @keyframes words {
   0%,
   20% {
@@ -254,6 +223,7 @@ span {
     content: "Cyber Security Enthusiast";
   }
 }
+
 @keyframes typing {
   10%,
   15%,
@@ -279,6 +249,7 @@ span {
     width: calc(100% + 8px);
   }
 }
+
 .heading {
   font-family: "Funnel Display", serif;
   font-optical-sizing: auto;
@@ -286,16 +257,19 @@ span {
   text-align: center;
   margin: 5rem 0;
 }
+
 .education {
   color: var(--main-color);
   padding: 100px 15px;
   background: var(--second-bg-color);
 }
+
 .education h2 {
   font-family: "Funnel Display", serif;
   font-optical-sizing: auto;
   margin-bottom: 5rem;
 }
+
 .timeline-items {
   max-width: 1200px;
   margin: auto;
@@ -303,6 +277,7 @@ span {
   flex-wrap: wrap;
   position: relative;
 }
+
 .timeline-items::before {
   content: "";
   position: absolute;
@@ -311,21 +286,26 @@ span {
   background-color: var(--main-color);
   left: calc(50% - 1px);
 }
+
 .timeline-item {
   margin-bottom: 40px;
   width: 100%;
   position: relative;
 }
+
 .timeline-item:last-child {
   margin-bottom: 0;
 }
+
 .timeline-item:nth-child(odd) {
   padding-right: calc(50% + 30px);
   text-align: right;
 }
+
 .timeline-item:nth-child(even) {
   padding-left: calc(50% + 30px);
 }
+
 .timeline-dot {
   height: 21px;
   width: 21px;
@@ -336,6 +316,7 @@ span {
   border-radius: 50%;
   top: 10px;
 }
+
 .timeline-date {
   font-family: "Funnel Display", serif;
   font-optical-sizing: auto;
@@ -344,6 +325,7 @@ span {
   color: #fcb7a8;
   margin: 6px 0 15px;
 }
+
 .timeline-content {
   background-color: var(--bg-color);
   border: 3px solid var(--main-color);
@@ -353,10 +335,12 @@ span {
   cursor: default;
   transition: 0.3s ease-in-out;
 }
+
 .timeline-content:hover {
   transform: scale(1.05);
   box-shadow: 0 0 25px var(--main-color);
 }
+
 .timeline-content h3 {
   font-family: "Funnel Display", serif;
   font-optical-sizing: auto;
@@ -365,6 +349,7 @@ span {
   margin: 0 0 10px;
   font-weight: 500;
 }
+
 .timeline-content p {
   font-family: "Funnel Display", serif;
   font-optical-sizing: auto;
@@ -377,13 +362,16 @@ span {
 ::-webkit-scrollbar {
   width: 15px;
 }
+
 ::-webkit-scrollbar-thumb {
   background-color: var(--main-color);
 }
+
 ::-webkit-scrollbar-track {
   background-color: var(--bg-color);
   width: 50px;
 }
+
 .services {
   background: var(--bg-color);
   color: #fcb7a8;
@@ -452,9 +440,11 @@ span {
   text-overflow: ellipsis;
   white-space: normal;
 }
+
 .testimonials {
   background: var(--second-bg-color);
 }
+
 .testimonials-box {
   background-size: cover;
   display: flex;
@@ -462,22 +452,26 @@ span {
   justify-content: center;
   flex-direction: column;
 }
+
 .testimonials .heading {
   color: #ed6a40;
   font-size: 5rem;
   margin-bottom: 5rem;
 }
+
 .testimonials-box img {
   width: 15rem;
   border-radius: 50%;
   border: 3px solid var(--main-color);
   box-shadow: 0 0 25px var(--main-color);
 }
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
 }
+
 .testimonial-item {
   min-height: 550px;
   max-width: 450px;
@@ -496,28 +490,35 @@ span {
   color: white;
   transition: 0.4s ease-in-out;
 }
+
 .testimonial-item:hover {
   border: 3px solid var(--main-color);
   transform: translateY(-10px) scale(1.03);
   box-shadow: 0 0 50px var(--main-color);
 }
+
 .testimonial-item h2 {
   font-size: 2.5rem;
 }
+
 .testimonial-item p {
   font-size: 1.3rem;
 }
+
 #star {
   color: gold;
   font-size: 2rem;
 }
+
 .contact {
   background-color: var(--bg-color);
 }
+
 .contact h2 {
   margin-bottom: 2rem;
   color: #fcb7a8;
 }
+
 .contact form {
   display: flex;
   align-items: center;
@@ -526,11 +527,13 @@ span {
   margin: 5rem auto;
   text-align: center;
 }
+
 .contact form .input-box {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .contact form .input-box input,
 .contact form textarea {
   width: 100%;
@@ -543,6 +546,7 @@ span {
   margin: 1.5rem 0;
   resize: none;
 }
+
 .contact form .btn {
   margin-top: 2rem;
 }
@@ -566,11 +570,13 @@ span {
   padding: 40px 0;
   background-color: var(--second-bg-color);
 }
+
 .footer .social {
   text-align: center;
   padding-bottom: 25px;
   color: var(--main-color);
 }
+
 .footer .social a {
   font-size: 25px;
   color: var(--main-color);
@@ -584,12 +590,14 @@ span {
   margin: 0 10px;
   transition: 0.3s ease-in-out;
 }
+
 .footer .social a:hover {
   transform: scale(1.2) translateY(-10px);
   background-color: var(--main-color);
   color: black;
   box-shadow: 0 0 25px var(--main-color);
 }
+
 .footer ul {
   margin-top: 0;
   padding: 0;
@@ -598,19 +606,23 @@ span {
   margin-bottom: 0;
   text-align: center;
 }
+
 .footer ul li a {
   color: #fcb7a8;
   font-size: 1.5rem;
   border-bottom: 3px solid transparent;
   transition: 0.3s ease-in-out;
 }
+
 .footer ul li a:hover {
   border-bottom: 3px solid var(--main-color);
 }
+
 .footer ul li {
   display: inline-block;
   padding: 0 15px;
 }
+
 .footer .copyright {
   font-size: 1rem;
   margin-top: 30px;
@@ -666,31 +678,6 @@ span {
 }
 
 @media (max-width: 895px) {
-  #menu-icon {
-    display: block;
-  }
-  .navbar {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    width: 50%;
-    padding: 1rem 3%;
-    background: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(20px);
-    border-bottom-left-radius: 2rem;
-    border-left: 2px solid var(--main-color);
-    border-bottom: 2px solid var(--main-color);
-    display: none;
-  }
-  .navbar.active {
-    display: block;
-  }
-  .navbar a {
-    display: block;
-    font-size: 2rem;
-    margin: 3rem 0;
-    color: white;
-  }
   .home {
     flex-direction: column-reverse;
     margin: 5rem 4rem;
@@ -714,10 +701,6 @@ span {
   }
   .services-container {
     grid-template-columns: repeat(1, 1fr);
-  }
-  .navbar {
-    padding: 0.5rem 3%; /* Reduce padding */
-    height: 50px; /* Set a fixed shorter height */
   }
 }
 
@@ -758,13 +741,6 @@ span {
     justify-content: center;
     margin-top: 1rem;
   }
-  .navbar {
-    padding: 0.3rem 2%;
-  }
-  .navbar a {
-    font-size: 1.5rem;
-    margin-left: 2rem;
-  }
 }
 
 @media (max-width: 480px) {
@@ -797,16 +773,5 @@ span {
   .btn-group .btn {
     padding: 0.5rem 1rem;
     font-size: 1rem;
-  }
-  .navbar {
-    padding: 0.5rem 1%;
-  }
-  .navbar a {
-    font-size: 0.8rem;
-    margin-left: 1rem;
-  }
-  .navbar {
-    padding: 0.3rem 1%;
-    height: 40px;
   }
 }
