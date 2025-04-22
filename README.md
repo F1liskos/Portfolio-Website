@@ -12,10 +12,10 @@ Hey there! I'm **Triantafyllos**, a developer passionate about **learning, evolv
 
 Since my portfolio evolves **as I learn**, expect this section to change! Right now, I work with:  
 
-- **Languages:** [HTML,CSS,JavaScript]  
-- **Frameworks:** [No Frameworks currently in use :(]  
-- **Tools:** [VSCode,GitHub,Git,Notion]  
-- **Learning Next:** [React.js]  
+- **Languages:** [ HTML, CSS, JavaScript ]  
+- **Frameworks:** [ No Frameworks currently in use :( ]  
+- **Tools:** [ VSCode, GitHub, Git, Notion ]  
+- **Learning Next:** [ React.js ]  
 
 ## 🛠️ Featured Projects  
 
