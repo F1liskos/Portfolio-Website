@@ -1,6 +1,6 @@
 # 🚀 Welcome to My Portfolio  
 
-Hey there! I'm **Triantafyllos**, a developer passionate about **learning, evolving, and creating**. This portfolio is a reflection of my journey—a space where I showcase my skills, projects, and the exciting new technologies I explore.  
+Hey there! I'm **Triantafyllos**, a developer passionate about **learning, evolving, and creating**. This portfolio is a reflection of my journey. A space where I showcase my skills, projects, and the exciting new technologies I explore.  
 
 ## ✨ About Me  
 
