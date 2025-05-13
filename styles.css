@@ -6,7 +6,7 @@
   border: none;
   outline: none;
   scroll-behavior: smooth;
-  font-family: "Poppins", sans-serif;
+  font-family: "Racing Sans One", sans-serif;
 }
 
 :root {
@@ -41,7 +41,7 @@ body {
 }
 
 .logo {
-  font-family: "Funnel Display", serif;
+  font-family: "Racing Sans One", serif;
   font-size: 3rem;
   color: var(--text-color);
   font-weight: 800;
@@ -75,7 +75,7 @@ section {
 }
 
 span {
-  font-family: "Funnel Display", serif;
+  font-family: "Racing Sans One", serif;
   color: var(--main-color);
 }
 
@@ -84,14 +84,14 @@ span {
 }
 
 .home-content h3 {
-  font-family: "Funnel Display", serif;
+  font-family: "Racing Sans One", serif;
   margin-bottom: 2rem;
   margin-top: 1rem;
   font-size: 3.5rem;
 }
 
 .home-content h1 {
-  font-family: "Funnel Display", serif;
+  font-family: "Racing Sans One", serif;
   font-size: 7rem;
   font-weight: 700;
   margin-top: 1.5rem;
@@ -114,9 +114,9 @@ span {
 }
 
 .home-content p {
-  font-family: "Funnel Display", serif;
+  font-family: "Racing Sans One", serif;
   font-size: 1.7rem;
-  font-weight: 500;
+  font-weight: 50;
   line-height: 1.8;
   max-width: 1000px;
 }
@@ -144,7 +144,7 @@ span {
 }
 
 .btn {
-  font-family: "Funnel Display", serif;
+  font-family: "Racing Sans One", serif;
   display: inline-block;
   padding: 1rem 2.8rem;
   background: var(--main-color);
@@ -252,7 +252,7 @@ span {
 }
 
 .heading {
-  font-family: "Funnel Display", serif;
+  font-family: "Racing Sans One", serif;
   font-optical-sizing: auto;
   font-size: 5rem;
   text-align: center;
@@ -266,7 +266,7 @@ span {
 }
 
 .education h2 {
-  font-family: "Funnel Display", serif;
+  font-family: "Racing Sans One", serif;
   font-optical-sizing: auto;
   margin-bottom: 5rem;
 }
@@ -319,7 +319,7 @@ span {
 }
 
 .timeline-date {
-  font-family: "Funnel Display", serif;
+  font-family: "Racing Sans One", serif;
   font-optical-sizing: auto;
   font-size: 20px;
   font-weight: 800;
@@ -343,7 +343,7 @@ span {
 }
 
 .timeline-content h3 {
-  font-family: "Funnel Display", serif;
+  font-family: "Racing Sans One", serif;
   font-optical-sizing: auto;
   font-size: 20px;
   color: #fcb7a8;
@@ -352,7 +352,7 @@ span {
 }
 
 .timeline-content p {
-  font-family: "Funnel Display", serif;
+  font-family: "Racing Sans One", serif;
   font-optical-sizing: auto;
   color: #fcb7a8;
   font-size: 16px;
@@ -379,7 +379,7 @@ span {
 }
 
 .services h2 {
-  font-family: "Funnel Display", serif;
+  font-family: "Racing Sans One", serif;
   font-optical-sizing: auto;
   margin-bottom: 5rem;
   color: #ed6a40;
@@ -422,7 +422,7 @@ span {
 }
 
 .service-info h4 {
-  font-family: "Funnel Display", serif;
+  font-family: "Racing Sans One", serif;
   font-optical-sizing: auto;
   font-size: 2.5rem;
   font-weight: 700;
@@ -433,9 +433,9 @@ span {
 }
 
 .service-info p {
-  font-family: "Funnel Display", serif;
+  font-family: "Racing Sans One", serif;
   font-optical-sizing: auto;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.4;
   overflow: hidden;
