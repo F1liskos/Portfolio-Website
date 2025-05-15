@@ -77,6 +77,7 @@ section {
 span {
   font-family: "Racing Sans One", serif;
   color: var(--main-color);
+  text-shadow: 3px 3px #3f0002;
 }
 
 .logo span {
@@ -180,7 +181,7 @@ span {
 }
 
 .text-animation span::before {
-  content: "Cyber Security Enthusiast";
+  content: "Computer Science Student";
   color: var(--main-color);
   animation: words 20s infinite;
 }
