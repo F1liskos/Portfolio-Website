@@ -114,9 +114,9 @@ span {
 }
 
 .home-content p {
-  font-family: "Fugaz One", sans-serif;
+  font-family: "Lexend", sans-serif;
   font-size: 1.7rem;
-  font-weight: 50;
+  font-weight: 300;
   line-height: 1.8;
   max-width: 1000px;
 }
@@ -352,7 +352,7 @@ span {
 }
 
 .timeline-content p {
-  font-family: "Fugaz One", sans-serif;
+  font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
   color: #fcb7a8;
   font-size: 16px;
@@ -433,10 +433,10 @@ span {
 }
 
 .service-info p {
-  font-family: "Racing Sans One", serif;
+  font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 1.4;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -505,6 +505,8 @@ span {
 
 .testimonial-item p {
   font-size: 1.3rem;
+  font-family: "Lexend", sans-serif;
+  font-weight: 300;
 }
 
 #star {
