@@ -89,6 +89,7 @@ span {
   margin-bottom: 2rem;
   margin-top: 1rem;
   font-size: 3.5rem;
+  background-color: none;
 }
 
 .home-content h1 {
@@ -97,6 +98,7 @@ span {
   font-weight: 700;
   margin-top: 1.5rem;
   line-height: 1;
+  background-color: none;
 }
 
 .home-img img {
