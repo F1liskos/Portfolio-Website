@@ -264,7 +264,7 @@ span {
 .education {
   color: var(--main-color);
   padding: 100px 15px;
-  background: linear-gradient(#3f0002, #0e111b, #0e111b);
+  background: var(--bg-color);
 }
 
 .education h2 {
