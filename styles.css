@@ -78,9 +78,13 @@ span {
   font-family: "Racing Sans One", serif;
   color: var(--main-color);
   text-shadow: 3px 3px #3f0002;
+  display: inline;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
 }
 
-.logo span {
+logo span {
   color: var(--main-color);
 }
 
@@ -182,76 +186,14 @@ span {
   position: relative;
 }
 
-.text-animation span::before {
-  content: "Computer Science Student";
-  color: var(--main-color);
-  animation: words 20s infinite;
+.text-animation {
+  font-size: 1.5rem;
+  color: var(--text-color);
 }
 
-.text-animation span::after {
-  content: "";
-  background-color: var(--bg-color);
-  position: absolute;
-  width: calc(100% + 8px);
-  height: 110%;
-  border-left: 3px solid var(--bg-color);
-  right: -8px;
-  animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
-}
-
-@keyframes cursor {
-  to {
-    border-left: 2px solid var(--main-color);
-  }
-}
-
-@keyframes words {
-  0%,
-  20% {
-    content: "Computer Science Student";
-  }
-  21%,
-  40% {
-    content: "Github Campus Expert";
-  }
-  41%,
-  60% {
-    content: "IEEE Member";
-  }
-  61%,
-  80% {
-    content: "Hack The Box Player";
-  }
-  81%,
-  100% {
-    content: "Cyber Security Enthusiast";
-  }
-}
-
-@keyframes typing {
-  10%,
-  15%,
-  30%,
-  35%,
-  50%,
-  55%,
-  70%,
-  75%,
-  90%,
-  95% {
-    width: 0;
-  }
-  5%,
-  20%,
-  25%,
-  40%,
-  45%,
-  60%,
-  65%,
-  80%,
-  85% {
-    width: calc(100% + 8px);
-  }
+#typing {
+  border-right: 2px solid var(--main-color);
+  padding-right: 5px;
 }
 
 .heading {
@@ -265,7 +207,7 @@ span {
 .education {
   color: var(--main-color);
   padding: 100px 15px;
-  background: var(--bg-color);
+  background: none;
 }
 
 .education h2 {
@@ -377,7 +319,7 @@ span {
 }
 
 .services {
-  background: var(--bg-color);
+  background: none;
   color: #fcb7a8;
 }
 
@@ -447,7 +389,7 @@ span {
 }
 
 .testimonials {
-  background: var(--second-bg-color);
+  background: none;
 }
 
 .testimonials-box {
@@ -518,7 +460,7 @@ span {
 }
 
 .contact {
-  background-color: var(--bg-color);
+  background-color: none;
 }
 
 .contact h2 {
@@ -575,7 +517,7 @@ span {
   bottom: 0;
   width: 100%;
   padding: 40px 0;
-  background-color: var(--second-bg-color);
+  background-color: none;
 }
 
 .footer .social {
@@ -782,4 +724,14 @@ span {
     padding: 0.5rem 1rem;
     font-size: 1rem;
   }
+}
+
+#vanta-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
 }
